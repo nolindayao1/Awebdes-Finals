@@ -1,0 +1,137 @@
+/* Global Styles */
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  padding-top: 100px; /* Adjust to match navbar height */
+}
+
+.bg-brown {
+  background-color: #5c4033; /* Example dark brown */
+}
+
+.rounded-square {
+  border-radius: 1rem;
+}
+/* Navbar */
+.navbar {
+background-color: #A67B5B;
+} 
+.navbar-brand,
+.navbar-nav .nav-link {
+color: #fff;
+}
+.navbar-nav .nav-link:hover {
+color: #ECB176;
+}
+/* Hero Carousel */
+.carousel-item img {
+height: 60vh;
+object-fit: cover;
+}
+.carousel-caption h2 {
+font-weight: bold;
+color: #fff;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+.carousel-caption p {
+color: #fff;
+text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+/* Menu Section */
+#menu .card {
+border: none;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+transition: transform 0.3s ease;
+}
+#menu .card:hover {
+transform: scale(1.03);
+}
+#menu .card-img-top {
+height: 230px;
+object-fit: cover;
+}
+#menu .badge {
+background-color: #ECB176;
+color: #fff;
+}  
+#menu .card-body {
+background-color: #fff;
+padding: 15px;
+}
+
+/* About Section */
+#about {
+background-color: #fffaf0;
+padding: 50px 0;
+}
+#about .photo {
+border-radius: 50%;
+width: 120px;
+height: 120px;
+object-fit: cover;
+}
+#reservation {
+background-color: #fffaf5;
+padding: 50px 0;
+}
+#reservation .form-label {
+font-weight: bold;
+color: #A67B5B;
+}
+#reservation .form-control {
+border-radius: 5px;
+padding: 10px;
+border: 1px solid #ddd;
+}
+#reservation .btn-primary {
+background-color: #A67B5B;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+}
+#reservation .btn-primary:hover {
+background-color: #ECB176;
+color: #fff;
+}
+footer {
+background-color: #A67B5B;
+color: #fff;
+}
+footer a {
+color: #fff;
+}
+footer a:hover {
+color: #ECB176;
+text-decoration: underline;
+}
+@media (min-width: 576px) {
+body {
+  font-size: 17px;
+}
+}
+@media (min-width: 768px) {
+body {
+  font-size: 18px;
+}
+}
+@media (min-width: 992px) {
+body {
+  font-size: 19px;
+}
+}
+@media (min-width: 1200px) {
+body {
+  font-size: 20px;
+}
+}
+@media (min-width: 1400px) {
+body {
+  font-size: 21px;
+}
+}
